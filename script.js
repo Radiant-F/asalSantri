@@ -9,11 +9,7 @@ const asalSantri = {
     wandi,
     rahmad,
     usamah,
+    ...other
 } = asalSantri);
 console.log(sidik, wandi, rahmad, usamah);
-const asalSantri2 = {
-    "Syofyan": "Purwokerto",
-    "Aldi": "Kendari",
-    "Kardi": "Lombok"
-};
-console.log(asalSantri2)
+console.log(other);
